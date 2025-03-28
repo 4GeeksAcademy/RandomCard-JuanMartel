@@ -21,18 +21,22 @@ body{
     width: 100px;
     justify-content: center;
     align-items: center;
-    font-size: 150px;
+    font-size: 80px;
+    margin-top: -40px;
+    margin-left: -41px;
 }
 .cardsValue{
     justify-content: center;
-    font-size: 300px;
+    font-size: 150px;
 }
 .suitsDown{
     height: 100px;
     width: 100px;
     justify-content: center;
     align-items: center;
-    font-size: 150px;
+    font-size: 80px;
+    margin-bottom: -40px;
+    margin-right: -41px;
 }
 .red {
 color: red;
@@ -43,6 +47,15 @@ color: black;
 .suitsDown{
     transform: rotate(180deg);
 }
-.mybutton{
-    justify-self: center;
+
+.button {
+    background-color: red;
+    text-decoration: none;
+}
+
+    
+a {
+    text-decoration: none;
+    font-size: 30px;
+
 }

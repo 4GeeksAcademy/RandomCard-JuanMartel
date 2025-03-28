@@ -20,7 +20,7 @@ window.onload = function() {
   const suitDown = document.querySelector('#suitDown')
 
 
-  if (randomSuits == "♦" || randomSuits == "♥") {
+  if (randomSuits == "♦" || randomSuits == "♥")   {
     suitUp.classList.add("red")
     cardValue.classList.add("red")
     suitDown.classList.add("red")
@@ -29,6 +29,7 @@ window.onload = function() {
     cardValue.classList.add("black")
     suitDown.classList.add("black")
   }
+
 
   suitUp.innerHTML = randomSuits
   cardValue.innerHTML = randomNumber
